@@ -1128,6 +1128,8 @@ public class RNZoomUsModule extends ReactContextBaseJavaModule implements ZoomSD
   public void onLocalRecordingPrivilegeRequested(IRequestLocalRecordingPrivilegeHandler handler) {}
   @Override
   public void onRequestLocalRecordingPrivilegeChanged(LocalRecordingRequestPrivilegeStatus status) {}
+  @Override
+  public void onAICompanionActiveChangeNotice(boolean active) {}
 
   // InMeetingShareListener event listeners
   // DEPRECATED: onShareActiveUser is just kept for now for backwards compatibility of events
